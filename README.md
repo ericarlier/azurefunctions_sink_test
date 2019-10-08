@@ -3,7 +3,7 @@
 Documentation for the Azure Functions Sink Connector is [here](https://docs.confluent.io/current/connect/kafka-connect-azure-functions/index.html)
 
 <code>generate_data.sh</code> script creates input topic for sink connector and fill it with 100+ events
-Among these 100+ events, few will make the azure function generate a 400 (keyed by 'key_400') and few a 500 error (keyed by 'key_400')
+Among these 100+ events, few will make the azure function generate a 400 (keyed by 'key_400') and few a 500 error (keyed by 'key_500')
 
 <code>init.js</code> is the body of the azure function I used
 
